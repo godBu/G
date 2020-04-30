@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono');
+@import url('https://fonts.googleapis.com/css?family=Satisfy');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300');
+
+h2 {
+    background: url(../img/zen.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+[role="banner"] {
+    background: url(/Users/codenationstudent/Desktop/mc-2-4-zen-garden-files/img/huntington.png);
+    background-size: cover;
+}
+
+.intro h1 {
+    text-shadow: 1.5px 6px 3px black;
+    font-family: 'Roboto';
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    padding-top: 2.5em;
+    font-size: 2.5em;
+
+}
+
+.intro h2 {
+    font-family: 'Satisfy';
+    font-size: 1.4em;
+    font-style: oblique;
+    text-align: center;
+    color: white;
+    padding-bottom: 4em;
+}
+
+.summary p, .preamble p, .explanation p, .participation p, .benefits p, .requirements p {
+    font-family: 'IBM Plex Mono';
+    color: grey;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-bottom: 1em;
+    font-size: .7em;
+}
+
+.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+    font-family: 'Roboto';
+    margin-left: 3.2em;
+    font-size: .9em;
+}
+
+.participation, .benefits{
+    background: url(/Users/codenationstudent/Desktop/mc-2-4-zen-garden-files/img/bamboo.png);
+    background-color: #759d7d;
+}
+
+.participation h3, .benefits h3 {
+    margin: -1em;
+    padding: 0.5em;
+    padding-left: 4.1em;
+} 
+
+.participation p, .benefits p {
+    padding-bottom: 1em;
+    color: white;
+}
+
+.requirements [role="contentinfo"] {
+    background-color: #759d7d;
+    padding: 2em;
+    text-align: center;
+    margin: 0em;
+}
+
+footer {
+    background-color: #23514d;
+    text-align: center;
+    font-size: 2em;
+    word-spacing: .5em;
+    color: white;
+    margin: 0%;
+    padding: .5em;
+    padding-bottom: .5em;
+}
+
+footer a {
+    color: white;
+}
