@@ -33,7 +33,7 @@ h2 {
     padding-bottom: 4em;
 }
 
-.summary p, .preamble p, .explanation p, .participation p, .benefits p, .requirements p {
+.summary p, .preamble p, .explanation p, .requirements p {
     font-family: 'IBM Plex Mono';
     color: grey;
     margin-left: 4em;
@@ -42,7 +42,7 @@ h2 {
     font-size: .7em;
 }
 
-.preamble h3, .explanation h3, .participation h3, .benefits h3, .requirements h3 {
+.preamble h3, .explanation h3, .requirements h3 {
     font-family: 'Roboto';
     margin-left: 3.2em;
     font-size: .9em;
@@ -57,9 +57,18 @@ h2 {
     margin: -1em;
     padding: 0.5em;
     padding-left: 4.1em;
+    font-family: 'Roboto';
+    font-size: .9em;
+    margin-bottom: -1.3em;
 } 
 
 .participation p, .benefits p {
+    font-family: 'IBM Plex Mono';
+    color: grey;
+    margin-left: 4em;
+    margin-right: 4em;
+    padding-bottom: 1em;
+    font-size: .7em;
     padding-bottom: 1em;
     color: white;
 }
@@ -70,6 +79,14 @@ h2 {
     text-align: center;
     margin: 0em;
 }
+.requirements [role="contentinfo"] a{
+    color: white;
+    font-family: 'Satisfy';
+    font-size: 3em;
+    text-decoration: none;
+    text-align:center;
+}
+
 
 footer {
     background-color: #23514d;
@@ -84,4 +101,8 @@ footer {
 
 footer a {
     color: white;
+}
+
+footer a:hover {
+    color: grey;
 }
