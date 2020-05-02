@@ -10,7 +10,11 @@ h2 {
 
 [role="banner"] {
     background: url(/Users/codenationstudent/Desktop/mc-2-4-zen-garden-files/img/huntington.png);
-    background-size: cover;
+    padding:3em;
+    background-size: auto;
+    border: none;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 .intro h1 {
@@ -36,41 +40,46 @@ h2 {
 .summary p, .preamble p, .explanation p, .requirements p {
     font-family: 'IBM Plex Mono';
     color: grey;
-    margin-left: 4em;
-    margin-right: 4em;
+    margin-left: 4.4em;
+    margin-right: 4.4em;
     padding-bottom: 1em;
-    font-size: .7em;
+    font-size: .8em;
+    text-align: justify;
 }
 
 .preamble h3, .explanation h3, .requirements h3 {
     font-family: 'Roboto';
-    margin-left: 3.2em;
+    margin-left: 4em;
     font-size: .9em;
 }
 
 .participation, .benefits{
     background: url(/Users/codenationstudent/Desktop/mc-2-4-zen-garden-files/img/bamboo.png);
     background-color: #759d7d;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 .participation h3, .benefits h3 {
     margin: -1em;
     padding: 0.5em;
-    padding-left: 4.1em;
+    padding-left: 7.2em;
     font-family: 'Roboto';
     font-size: .9em;
-    margin-bottom: -1.3em;
+    margin-bottom: 0.5em;
 } 
 
 .participation p, .benefits p {
     font-family: 'IBM Plex Mono';
+    text-align: justify;
     color: grey;
-    margin-left: 4em;
-    margin-right: 4em;
     padding-bottom: 1em;
-    font-size: .7em;
-    padding-bottom: 1em;
+    font-size: .8em;
     color: white;
+    padding-left: 6.9em;
+    padding-right: 6.9em;
+    margin-top: -1.0em;
+    margin-bottom: 0em;
 }
 
 .requirements [role="contentinfo"] {
@@ -78,6 +87,8 @@ h2 {
     padding: 2em;
     text-align: center;
     margin: 0em;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 .requirements [role="contentinfo"] a{
     color: white;
@@ -94,9 +105,11 @@ footer {
     font-size: 2em;
     word-spacing: .5em;
     color: white;
-    margin: 0%;
+    margin: 0em;
     padding: .5em;
     padding-bottom: .5em;
+    margin-left: -2em;
+    margin-right: -2em;
 }
 
 footer a {
@@ -105,4 +118,17 @@ footer a {
 
 footer a:hover {
     color: grey;
+}
+
+.sidebar .wrapper a {
+    text-align: center;
+    text-decoration: none;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: .8em;
+    color: grey;
+}
+
+.sidebar .wrapper a:nth-child(odd) {
+    color: black;
+    font-family: 'Roboto';
 }
